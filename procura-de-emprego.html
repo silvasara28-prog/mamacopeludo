@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Vagas</title>
+</head>
+<body>
+
+<header>
+    <h1>Vagas Disponíveis</h1>
+</header>
+
+<div class="container">
+    <div class="job-card">
+        <div class="job-title">Desenvolvedor Backend Python</div>
+        <span class="company-name">Tech Solutions Br</span>
+        <p class="description">Estamos em busca de especialistas em Django e APIs REST para projeto internacional de larga escala.</p>
+        <div class="tags">
+            <span class="tag">Remoto</span>
+            <span class="tag">Sênior</span>
+        </div>
+        <a href="#" class="btn-apply">Candidatar-se</a>
+    </div>
+
+    <div class="job-card">
+        <div class="job-title">Designer UI/UX</div>
+        <span class="company-name">Creative Studio</span>
+        <p class="description">Criação de interfaces modernas e prototipagem no Figma. Foco em experiência do usuário final.</p>
+        <div class="tags">
+            <span class="tag">Híbrido</span>
+            <span class="tag">Pleno</span>
+        </div>
+        <a href="#" class="btn-apply">Candidatar-se</a>
+    </div>
+
+    <div class="job-card">
+        <div class="job-title">Gerente de Projetos TI</div>
+        <span class="company-name">Global Corp</span>
+        <p class="description">Liderança de times ágeis e gestão de stakeholders. Necessário certificação PMP ou Scrum Master.</p>
+        <div class="tags">
+            <span class="tag">Presencial</span>
+            <span class="tag">PJ</span>
+        </div>
+        <a href="#" class="btn-apply">Candidatar-se</a>
+    </div>
+    <a href="agilejob.html" class="voltar">Voltar ao inicio</a>
+</div>
+ <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+            border-bottom: 2px solid #a90000;
+            margin-bottom: 40px;
+            padding: 20px 0;
+        }
+        h1 {
+            color: #a90000;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+        .job-card {
+            background-color: #121212;
+            border: 1px solid #333;
+            border-left: 6px solid #a90000;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        .job-card:hover {
+            background-color: #1a1a1a;
+            border-color: #a90000;
+        }
+        .job-title {
+            font-size: 1.5rem;
+            color: #a90000;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .company-name {
+            font-size: 1rem;
+            color: #aaaaaa;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .description {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: #e0e0e0;
+        }
+        .tags {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+        .tag {
+            background: #222;
+            color: #a90000;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            border: 1px solid #a90000;
+        }
+        .btn-apply {
+            margin-top: 20px;
+            display: inline-block;
+            background-color: #a90000;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            transition: background 0.3s;
+        }
+        .btn-apply:hover {
+            background-color: #800000;
+        }
+        .voltar{
+            margin-top: -900px;
+            color: #a70000;
+            margin-left: -350px;
+            position: absolute;
+        }
+    </style>
+</body>
+</html>

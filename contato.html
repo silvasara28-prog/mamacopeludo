@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+
+    <div class="cartao-contato">
+        <h2>Fale Conosco</h2>
+        <p>Mande sua dúvida e responderemos em breve.</p>
+
+        <form action="#">
+            <input type="text" placeholder="Nome completo" class="campo">
+            <input type="text" placeholder="E-mail" class="campo">
+            <input type="text" placeholder="quais sao suas espeçializaçoes?" class="campo" style="height: 80px;"></input>
+            
+            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+
+        <a href="agilejob.html" class="voltar">← Voltar ao site</a>
+    </div>
+  <style>
+        body {
+            background-color: #000000; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .cartao-contato {
+            background-color: #000000;
+            width: 380px;
+            padding: 30px;
+            border-radius: 15px;
+            border: 6px solid #a70000;
+        }
+
+        h2 {
+            color: #a70000;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            color: #a70000;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .campo {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+
+        .btn-enviar {
+            width: 100%;
+            padding: 12px;
+            background-color: #a70000;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-enviar:hover {
+            background-color: #a70000;
+        }
+
+        .voltar {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #a70000;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</body>
+</html>

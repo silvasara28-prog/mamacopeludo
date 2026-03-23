@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Trabalho - AgileJob</title>
+</head>
+<body>
+    <nav>
+        <a href="loginagile.html">Login</a>
+        <a href="cadastro.html">Cadastrar</a>
+        <a href="procura-de-emprego.html">Vagas</a>
+        <a href="perfil.html">Meu Perfil</a>
+        <a href="gestaovagas.html">Painel Empresa</a>
+        <a href="sobrenos.html">Sobre Nós</a> 
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <hr>
+
+    <div class="conteudo">
+        <h1 style="letter-spacing: 5px; font-size: 2rem;">AGILE<span style="color:#a90000">JOB</span></h1>
+        
+        <div class="busca">
+            <input type="text" placeholder="Cargo ou Cidade">
+            <button class="btn-vermelho">BUSCAR</button>
+        </div>
+    </div>
+
+    <footer>
+        <a href="backlog.html" class="btn-seletiva">Seletiva</a>
+    </footer>
+
+<style>
+        body {
+            margin: 0;
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            font-family: sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 25px 0 10px 0;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;  
+        }
+
+        nav a:hover {
+            color: #a90000;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background-color: #a90000;
+            width: 100%;
+            margin: 0;
+        }
+
+        .conteudo {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .busca {
+            display: flex;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #333;
+            margin-bottom: 30px;
+        }
+
+        input {
+            flex: 1;
+            padding: 15px;
+            background: #000;
+            border: none;
+            color: #fff;
+            outline: none;
+        }
+
+        .btn-vermelho {
+            background-color: #a90000;
+            color: #fff;
+            border: none;
+            padding: 0 30px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Estilo dos novos atalhos */
+        .atalhos-rapidos {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card-atalho {
+            text-decoration: none;
+            color: #fff;
+            border: 2px solid #a90000;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 120px;
+            transition: 0.3s;
+            background: #0a0a0a;
+        }
+
+        .card-atalho:hover {
+            background: #a90000;
+            transform: translateY(-5px);
+        }
+
+        .card-atalho span {
+            font-size: 24px;
+        }
+
+        .card-atalho p {
+            margin: 10px 0 0;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .btn-seletiva {
+            background: transparent;
+            color: #333;
+            border: 1px solid #222;
+            padding: 4px 8px;
+            font-size: 9px;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 2px;
+        }
+    </style>
+</body>
+</html>

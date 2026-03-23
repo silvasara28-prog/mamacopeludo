@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Backlog de Vagas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="titulo">BACKLOG</h1>
+    <a href="file:///C:/Users/dvman/agilejob.html" class="voltar">voltar ao inicio</a>
+
+    <div class="backlog">
+       
+        <div class="lista">
+            <h3>Todas As Tarefas (8)</h3>
+            <ul>
+                <li><strong>Criar os arquivos iniciais</strong></li>
+                <li><strong>Montar o "esqueleto"</strong></li>
+                <li><strong>Linkar o CSS</strong></li>
+                <li><strong>Escolher as fontes</strong></li>
+                <li><strong>Definir as cores</strong> </li>
+                <li><strong>Limpar as margens</strong></li>
+                <li><strong>Criar a pagina inicial</strong></li>
+                <li><strong>Colocar Botões</strong></li>
+            </ul>
+        </div>
+
+        <div class="lista">
+            <h3>Em Andamento (2)</h3>
+         <ul>
+                <li><strong>Colocar Botões</strong> - Oscorp</li>
+                <li><strong>Criar a pagina inicial</strong> - Oscorp</li>
+            </ul>
+        </div>
+
+
+        <div class="lista">
+            <h3>Encerradas(1)</h3>
+
+            <ul>
+                <li class="lista2"><strong>criar a pagina inicial</strong></li>
+            </ul>
+        </div>
+
+    </div>
+    <style>
+        body{
+    font-family: sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 3rem;
+    color: #a70000;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.backlog{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.lista {
+    background: black;
+    border-radius: 10px;
+    width: 260px;
+    padding: 20px;
+    min-height: 400px;
+    border: 6px solid #a90000;
+}
+
+.lista h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista li {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.85rem;
+    color: white;
+}
+
+.lista2 {
+    text-decoration: line-through;
+    color: #bbb;
+}
+.voltar{
+     margin-top: -950px;
+     color: #a70000;
+    margin-left: -350px;
+    position: absolute;    
+}
+</style>
+</body>
+</html>
